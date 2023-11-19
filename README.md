@@ -9,10 +9,16 @@ Here are some pointers you must remember while working with Kubernetes.
 
 💠Node Components:
 ▪ Kubelet: Agent running on each node that communicates with the API server and manages containers on the node.
-▪ Container Runtime: Software responsible for running containers, such as Docker or containerd.
+▪ Container Runtime: Software responsible for running containers, such as Docker or contained.
+
+
 💠Kube Proxy: Maintains network rules to allow communication between pods and external traffic.
+
+
 💠 Controller Plane:
 Etcd: A distributed key-value store that stores the cluster's configuration data and state.
+
+
 💠Pods:
 ▪ Basic Building Block: Smallest deployable units in Kubernetes, containing one or more containers sharing the same network namespace.
 
